@@ -1,1 +1,11 @@
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - 袁凯-技术文档-18616012002.md
