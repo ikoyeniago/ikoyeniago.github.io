@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkikoyeniago=self.webpackChunkikoyeniago||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/ikoyeniago.github.io/blog","blogTitle":"Blog","authorsListPath":"/ikoyeniago.github.io/blog/authors"}')}}]);
