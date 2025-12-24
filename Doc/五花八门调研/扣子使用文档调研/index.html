@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">扣子使用文档调研 | Ikoyenia goes on and on</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://ikoyeniago.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://ikoyeniago.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://ikoyeniago.github.io/Doc/五花八门调研/扣子使用文档调研"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-pageDoc-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-pageDoc-current"><meta data-rh="true" property="og:title" content="扣子使用文档调研 | Ikoyenia goes on and on"><meta data-rh="true" name="description" content="背景"><meta data-rh="true" property="og:description" content="背景"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://ikoyeniago.github.io/Doc/五花八门调研/扣子使用文档调研"><link data-rh="true" rel="alternate" href="https://ikoyeniago.github.io/Doc/五花八门调研/扣子使用文档调研" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://ikoyeniago.github.io/Doc/五花八门调研/扣子使用文档调研" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Ikoyenia goes on and on RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Ikoyenia goes on and on Atom Feed"><link rel="stylesheet" href="/assets/css/styles.5215298e.css">
-<script src="/assets/js/runtime~main.d6cfe4c4.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.3c32d1b1.js" defer="defer"></script>
 <script src="/assets/js/main.7b189ba6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -51,13 +51,13 @@
 <li>
 <p>项目发布为什么单独拎出来？</p>
 <ul>
-<li>貌似没什么理由，单纯的没怎么设计架构吧...</li>
+<li>貌似没什么理由，单纯的没怎么设计吧...</li>
 </ul>
 </li>
 <li>
-<p>开发指南中把把智能音视频列出来的逻辑是什么？</p>
+<p>开发指南中把智能音视频列出来的逻辑是什么？</p>
 <ul>
-<li>貌似没什么理由，单纯的没怎么设计架构吧...</li>
+<li>貌似没什么理由，单纯的没怎么设计吧...</li>
 </ul>
 </li>
 </ol>
@@ -88,7 +88,7 @@
 <p><img decoding="async" loading="lazy" src="/assets/images/image-4-da171695fd262e99a8aaeaeb29b5907b.png" width="320" height="482" class="img_ev3q"></p>
 </li>
 <li>
-<p>主要原因还是文档工程师囿于功能模块，仅仅套用concept、task这些类型去分割产研给的材料，而没能从用户角度消化和转译这些材料，没有面向整个产品做架构设计和迭代的意识。他们的文档维护逻辑应该是根据功能模块新建topic、根据功能模块定位置，但同时又难以在架构中体现使用逻辑，所以就出了一些快速xxx类的topic。这样做的明显表现包括：</p>
+<p>主要原因还是设计时囿于功能模块，仅仅套用concept、task这些类型去分割初始的材料，而没能从用户角度消化和转译，没能面向整个产品做架构设计和迭代。目前的文档维护逻辑应该是根据功能模块新建topic、根据功能模块定位置，但同时又难以在架构中体现使用逻辑，所以就出了一些快速xxx类的topic。这样做的明显表现包括：</p>
 <ul>
 <li>
 <p>对于智能体单Agent、多Agents模式导致界面大变样的要素，仍然只是作为一个功能模块去写，无法在更高的层级让读者明确感知到这种重要的分岔路口。</p>
@@ -102,17 +102,18 @@
 </ul>
 </li>
 <li>
-<p>某些手册的定位有问题，比如开发指南，算是零散列了个别场景（智能音视频）、个别节点的定制能力（渠道入驻 回调管理 会话与消息），但没有对扣子平台提供的开发能力做整体介绍，比如一个思路是通过API、SDK透出开发能力，在开发时中有什么典型编程模型可以套用，针对哪些场景、哪些环节有那些典型的编程操作可以借鉴。另外，扣子平台本身就是一个开发平台，把一些直接在页面上配置的选项单独当做开发指南的一个架构维度有点没必要，API调用folder放在API参考反而更合适吧、渠道入驻放在管理发布渠道反而更合适吧。</p>
+<p>某些手册的定位有问题，比如开发指南，算是零散列了个别场景（智能音视频）、个别节点的定制能力（渠道入驻 回调管理 会话与消息），但没有对扣子平台提供的开发能力做整体介绍，比如一个思路是通过API、SDK透出开发能力，在开发时中有什么典型编程模型可以套用，针对哪些场景、哪些环节有那些典型的编程操作可以借鉴。另外，扣子平台本身就是一个开发平台，把一些直接在页面上配置的选项单独当做开发指南的一个架构维度有点没必要，API调用folder放在API参考反而更合适吧？渠道入驻放在管理发布渠道反而更合适吧？</p>
 </li>
 </ol>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="优化思路">优化思路<a href="#优化思路" class="hash-link" aria-label="优化思路的直接链接" title="优化思路的直接链接">​</a></h3>
 <ol>
 <li>
-<p>定价、购买、订阅套餐、推广、变现之类的功能，项目不涉及，分析文档直接跳过。</p>
+<p>定价、购买、订阅套餐、推广、变现之类的功能，项目不涉及，分析文档时直接跳过。</p>
 </li>
 <li>
-<p>介绍使用时还是要基于典型流程，梳理出流程中影响操作的关键变量，例如智能体单Agent、多Agents的操作界面差别比较大，就可以作为分篇的依据。</p>
+<p>介绍使用时还是要基于典型流程。</p>
 <ul>
+<li>梳理出流程中影响操作的关键变量，例如智能体单Agent、多Agents的操作界面差别比较大，就可以作为分篇的依据。</li>
 <li>不要混淆流程节点和配置化功能，比如发布在操作上是智能体和应用开发的一个环节，但是可以在空间配置中管理发布渠道，就不用把发布这个节点单拎出来，流程是流程，配置是配置。</li>
 </ul>
 </li>
@@ -125,15 +126,9 @@
 <li>
 <p>为目前的每篇文档找到更合理的位置，要重视concept类文档的质量，写concept时注意：</p>
 <ul>
-<li>
-<p>选择合适的粒度，避免过大（讲的太抽象实用性低）或过细（难以体现多组件之间的逻辑）。</p>
-</li>
-<li>
-<p>尽量在相同的层级保持一致的描述粒度。</p>
-</li>
-<li>
-<p>搞清趋势、需求、技术原理、产品功能、方案、特点、优势等类型内容的用途，避免混杂在一起。</p>
-</li>
+<li>选择合适的粒度，避免过大（讲的太抽象实用性低）或过细（难以体现多组件之间的逻辑）。</li>
+<li>尽量在相同的层级保持一致的描述粒度。</li>
+<li>搞清趋势、需求、技术原理、产品功能、方案、特点、优势等类型内容的用途，避免混杂在一起。</li>
 </ul>
 </li>
 </ol>
