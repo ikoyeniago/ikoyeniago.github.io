@@ -1,0 +1,1 @@
+(globalThis.webpackChunkikoyeniago=globalThis.webpackChunkikoyeniago||[]).push([[5741],{5741:()=>{}}]);
