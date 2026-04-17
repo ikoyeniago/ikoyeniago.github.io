@@ -2,11 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ikoyeniago.github.io/blog</id>
     <title>Ikoyenia goes on and on Blog</title>
-    <updated>2025-12-23T00:00:00.000Z</updated>
+    <updated>2026-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ikoyeniago.github.io/blog"/>
     <subtitle>Ikoyenia goes on and on Blog</subtitle>
     <icon>https://ikoyeniago.github.io/img/iko_logo2.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[AI-in-the-Loop]]></title>
+        <id>https://ikoyeniago.github.io/blog/ai-in-the-loop</id>
+        <link href="https://ikoyeniago.github.io/blog/ai-in-the-loop"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前段时间忙于为公司新版官网设计内容，堪堪错过了AI造的这些孽：]]></summary>
+        <content type="html"><![CDATA[<p>前段时间忙于为公司新版官网设计内容，堪堪错过了AI造的这些孽：</p>
+<ul>
+<li>GPT、Claude、Gemini、Grok、DeepSeek、Kimi、MiniMax、Qwen、Doubao、GLM...</li>
+<li>Cursor、Claude Code、GitHub Copilot、CodeX、CodeBuddy、TRAE、CodeGeeX...</li>
+<li>Prompt Engineering、Context Engineering、Harness Engineering...</li>
+<li>RAG、Function Calling、Workflow、MCP、Skill...</li>
+<li>OpenClaw、Hermes...</li>
+<li>AI Consumer、AI Thinker、AI Builder、AI Architect...</li>
+<li>麻了，已经麻了...</li>
+</ul>
+<p>不过，麻归麻，对于被卡在不会写代码、系统学习又太慢等等等等痛点的Technical Writer来说，何尝不是"春天到了"的前奏。</p>
+<p>按以往的尿性，设计完一个官网的内容，估计要和人口干舌燥地描绘半天，这个架构怎么映射到页面上。</p>
+<p>想搞原型图？设计不在行。</p>
+<p>想搞demo？前端不在行。</p>
+<p>现在，把内容灌给AI，一个栩栩如生的原型就出来了。</p>
+<p><img decoding="async" loading="lazy" src="https://ikoyeniago.github.io/assets/images/Snipaste_2026-04-17_17-01-47-cc00c0e4250c580283e9f7f802858405.png#width=400" width="1920" height="898" class="img_ev3q"></p>
+<p>虽然个人项目和企业级应用的鸿沟还在，如何定制细节、如何对齐公司VI、如何部署、如何迭代等等等等都还要继续学习。</p>
+<p>但是现在，每个人平等的拥有了"先出效果，再学技术"的选择权，这是史诗级的进步。</p>
+<p>同时，也是时候进化自己了，给自己列几个任务：</p>
+<ol>
+<li>总结官网内容设计的过程。</li>
+<li>总结网站原型制作的过程。</li>
+<li>优化下自己的网站视觉。</li>
+<li>探寻AI赋能文档系统的节点，是否有可能通过"需求 → 规范 → Skill → 评估体系"的设计，实现AI-in-the-Loop，解决风格指南落地难、质量控制落地难等等现有系统难以解决的问题。</li>
+</ol>
+<p>不必技术焦虑，也不要固步自封。</p>
+<p>总会有更先进的技术、更强大的模型、更易用的框架，而理解概念最好的方法，就是去用它。</p>
+<p>即使到头来AI也无法完美解决所有的问题，尝试的过程也能让自己获得更深入的见解吧。</p>]]></content>
+        <author>
+            <name>Ikoyenia</name>
+            <uri>https://github.com/ikoyeniago</uri>
+        </author>
+        <category label="AI-in-the-Loop" term="AI-in-the-Loop"/>
+        <category label="Technical Writing" term="Technical Writing"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[写给自己的话]]></title>
         <id>https://ikoyeniago.github.io/blog/do-not-forget</id>
