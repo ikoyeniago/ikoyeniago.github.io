@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkikoyeniago=globalThis.webpackChunkikoyeniago||[]).push([[7148],{2215:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"pageDSGN"}')}}]);
